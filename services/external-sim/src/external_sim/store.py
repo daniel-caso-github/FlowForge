@@ -18,3 +18,15 @@ class InMemoryStore:
             return "not_found"
         record["status"] = "voided"
         return record["status"]
+
+    def schedule_payment(self, idempotency_key: str, invoice_id: str) -> str:
+        if idempotency_key not in self._payments:
+            self._payments[idempotency_key] = {"invoice_id": invoice_id, "status": "scheduled"}
+        return self._payments[idempotency_key]["status"]
+
+    def confirm_payment(self, idempotency_key: str) -> str:
+        record = self._payments.get(idempotency_key)
+        if record is None:
+            return "not_found"
+        record["status"] = "confirmed"
+        return record["status"]

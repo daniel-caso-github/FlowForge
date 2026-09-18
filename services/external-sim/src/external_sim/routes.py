@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Request
-from flowforge_contracts.erp import PostInvoiceRequest
+from flowforge_contracts.erp import ConfirmPaymentRequest, PostInvoiceRequest, SchedulePaymentRequest
 
 router = APIRouter()
 
@@ -16,3 +16,17 @@ def void_invoice(idempotency_key: str, req: Request) -> dict:
     store = req.app.state.store
     status = store.void_invoice(idempotency_key)
     return {"idempotency_key": idempotency_key, "status": status}
+
+
+@router.post("/payments/schedule")
+def schedule_payment(request: SchedulePaymentRequest, req: Request) -> dict:
+    store = req.app.state.store
+    status = store.schedule_payment(request.idempotency_key, request.invoice_id)
+    return {"idempotency_key": request.idempotency_key, "status": status}
+
+
+@router.post("/payments/confirm")
+def confirm_payment(request: ConfirmPaymentRequest, req: Request) -> dict:
+    store = req.app.state.store
+    status = store.confirm_payment(request.idempotency_key)
+    return {"idempotency_key": request.idempotency_key, "status": status}
