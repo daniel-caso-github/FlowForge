@@ -1,0 +1,76 @@
+{
+  "invoice_key": "abafbd6b-edda-5d98-a2a4-809108ee200e:81618495930:FPE-missing_withholding-0146",
+  "company_id": "abafbd6b-edda-5d98-a2a4-809108ee200e",
+  "jurisdiction": "PE",
+  "supplier_tax_id": "81618495930",
+  "series_number": "FPE-missing_withholding-0146",
+  "issue_date": "2026-05-27",
+  "due_date": "2026-06-26",
+  "po_reference": null,
+  "lines": [
+    {
+      "line_number": 1,
+      "description": "Consultoria de software",
+      "quantity": "1",
+      "unit_price": {
+        "amount": "150.00",
+        "currency": "PEN"
+      },
+      "line_total": {
+        "amount": "150.00",
+        "currency": "PEN"
+      }
+    }
+  ],
+  "subtotal": {
+    "original": {
+      "amount": "150.00",
+      "currency": "PEN"
+    },
+    "base": {
+      "amount": "150.00",
+      "currency": "PEN"
+    },
+    "rate": "1",
+    "rate_date": "2026-05-27",
+    "rate_source": "datagen-simulated"
+  },
+  "taxes": [
+    {
+      "tax_type": "IGV",
+      "rate": "0.18",
+      "base": {
+        "amount": "150.00",
+        "currency": "PEN"
+      },
+      "amount": {
+        "amount": "27.00",
+        "currency": "PEN"
+      }
+    }
+  ],
+  "withholdings": [],
+  "total": {
+    "original": {
+      "amount": "177.00",
+      "currency": "PEN"
+    },
+    "base": {
+      "amount": "177.00",
+      "currency": "PEN"
+    },
+    "rate": "1",
+    "rate_date": "2026-05-27",
+    "rate_source": "datagen-simulated"
+  },
+  "payable": {
+    "amount": "177.00",
+    "currency": "PEN"
+  },
+  "bank_account": {
+    "last4": "1983",
+    "fingerprint": "521b4e913ff5401129bbce418bd4ae36c7d25430512bec4e32b1a6986f6d7139",
+    "account_number": "10341316475255341983"
+  },
+  "source_extraction_id": "582ce447-b8c1-58f5-9f1c-659c045c6e89"
+}

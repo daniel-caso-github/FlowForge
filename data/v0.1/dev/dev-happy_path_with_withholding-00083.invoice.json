@@ -1,0 +1,86 @@
+{
+  "invoice_key": "c2421929-3104-5b33-b335-93c820934a27:B28327641:FES-happy_path_with_withholding-0083",
+  "company_id": "c2421929-3104-5b33-b335-93c820934a27",
+  "jurisdiction": "ES",
+  "supplier_tax_id": "B28327641",
+  "series_number": "FES-happy_path_with_withholding-0083",
+  "issue_date": "2026-03-25",
+  "due_date": "2026-04-24",
+  "po_reference": null,
+  "lines": [
+    {
+      "line_number": 1,
+      "description": "Consultoria informatica",
+      "quantity": "1",
+      "unit_price": {
+        "amount": "180.00",
+        "currency": "EUR"
+      },
+      "line_total": {
+        "amount": "180.00",
+        "currency": "EUR"
+      }
+    }
+  ],
+  "subtotal": {
+    "original": {
+      "amount": "180.00",
+      "currency": "EUR"
+    },
+    "base": {
+      "amount": "180.00",
+      "currency": "EUR"
+    },
+    "rate": "1",
+    "rate_date": "2026-03-25",
+    "rate_source": "datagen-simulated"
+  },
+  "taxes": [
+    {
+      "tax_type": "IVA",
+      "rate": "21.00",
+      "base": {
+        "amount": "180.00",
+        "currency": "EUR"
+      },
+      "amount": {
+        "amount": "37.80",
+        "currency": "EUR"
+      }
+    }
+  ],
+  "withholdings": [
+    {
+      "kind": "irpf",
+      "rate": "0.15",
+      "amount": {
+        "amount": "27.00",
+        "currency": "EUR"
+      },
+      "code": null
+    }
+  ],
+  "total": {
+    "original": {
+      "amount": "217.80",
+      "currency": "EUR"
+    },
+    "base": {
+      "amount": "217.80",
+      "currency": "EUR"
+    },
+    "rate": "1",
+    "rate_date": "2026-03-25",
+    "rate_source": "datagen-simulated"
+  },
+  "payable": {
+    "amount": "190.80",
+    "currency": "EUR"
+  },
+  "bank_account": {
+    "last4": "7242",
+    "fingerprint": "7ef4865fda6a32b77939cc1c163b8f950be23a9639537b31a1621d28c8c2d9c9",
+    "account_number": "ES7683503056413953767242"
+  },
+  "source_extraction_id": "130d7ef8-a430-54cc-b95a-4bea00fc1f09"
+}
