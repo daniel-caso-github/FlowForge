@@ -20,6 +20,13 @@ def _idempotency_key(workflow_id: str, activity_name: str) -> str:
     return f"{workflow_id}-{activity_name}"
 
 
+def _current_workflow_id() -> str:
+    workflow_id = activity.info().workflow_id
+    if workflow_id is None:
+        raise ApplicationError("activity has no owning workflow_id", non_retryable=True)
+    return workflow_id
+
+
 def _maybe_inject_failure(payload: InvoiceDemoPayload, activity_name: str) -> None:
     if payload.fail_at == activity_name:
         raise ApplicationError(f"forced failure at {activity_name}", non_retryable=True)
@@ -44,7 +51,7 @@ async def reserve_budget(payload: InvoiceDemoPayload) -> None:
     activity_name = "reserve_budget"
     _maybe_inject_failure(payload, activity_name)
     await _maybe_inject_delay(payload, activity_name)
-    workflow_id = activity.info().workflow_id
+    workflow_id = _current_workflow_id()
     request = ReserveBudgetRequest(
         idempotency_key=_idempotency_key(workflow_id, activity_name),
         invoice_id=payload.invoice_id,
@@ -62,7 +69,7 @@ async def reserve_budget(payload: InvoiceDemoPayload) -> None:
 
 @activity.defn
 async def release_budget(payload: InvoiceDemoPayload) -> None:
-    workflow_id = activity.info().workflow_id
+    workflow_id = _current_workflow_id()
     idempotency_key = _idempotency_key(workflow_id, "reserve_budget")
     request = ReleaseBudgetRequest(idempotency_key=idempotency_key)
     async with httpx.AsyncClient(base_url=BUDGET_SERVICE_URL) as client:
@@ -75,7 +82,7 @@ async def post_to_erp(payload: InvoiceDemoPayload) -> None:
     activity_name = "post_to_erp"
     _maybe_inject_failure(payload, activity_name)
     await _maybe_inject_delay(payload, activity_name)
-    workflow_id = activity.info().workflow_id
+    workflow_id = _current_workflow_id()
     request = PostInvoiceRequest(
         idempotency_key=_idempotency_key(workflow_id, activity_name),
         invoice_id=payload.invoice_id,
@@ -93,7 +100,7 @@ async def post_to_erp(payload: InvoiceDemoPayload) -> None:
 
 @activity.defn
 async def void_erp_post(payload: InvoiceDemoPayload) -> None:
-    workflow_id = activity.info().workflow_id
+    workflow_id = _current_workflow_id()
     idempotency_key = _idempotency_key(workflow_id, "post_to_erp")
     async with httpx.AsyncClient(base_url=EXTERNAL_SIM_URL) as client:
         response = await client.delete(f"/erp/invoices/{idempotency_key}")
@@ -105,7 +112,7 @@ async def schedule_payment(payload: InvoiceDemoPayload) -> None:
     activity_name = "schedule_payment"
     _maybe_inject_failure(payload, activity_name)
     await _maybe_inject_delay(payload, activity_name)
-    workflow_id = activity.info().workflow_id
+    workflow_id = _current_workflow_id()
     request = SchedulePaymentRequest(
         idempotency_key=_idempotency_key(workflow_id, activity_name),
         invoice_id=payload.invoice_id,
@@ -125,7 +132,7 @@ async def confirm_payment(payload: InvoiceDemoPayload) -> None:
     activity_name = "confirm_payment"
     _maybe_inject_failure(payload, activity_name)
     await _maybe_inject_delay(payload, activity_name)
-    workflow_id = activity.info().workflow_id
+    workflow_id = _current_workflow_id()
     request = ConfirmPaymentRequest(
         idempotency_key=_idempotency_key(workflow_id, activity_name),
         invoice_id=payload.invoice_id,
