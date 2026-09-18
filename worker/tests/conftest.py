@@ -1,4 +1,10 @@
+import pytest
 from temporalio import activity
+
+
+@pytest.fixture
+def fake_activities_factory():
+    return make_fake_activities
 
 
 def make_fake_activities(calls: list[str], fail_at: str | None = None):

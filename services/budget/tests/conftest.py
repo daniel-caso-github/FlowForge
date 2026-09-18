@@ -1,10 +1,30 @@
 import pytest
+from budget_service.domain.reservation import BudgetReservation
 from budget_service.infrastructure.db import Base, get_db
 from budget_service.main import app
 from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.pool import StaticPool
+
+
+class FakeBudgetReservationRepository:
+    def __init__(self) -> None:
+        self.reservations: dict[str, BudgetReservation] = {}
+
+    def get(self, idempotency_key: str) -> BudgetReservation | None:
+        return self.reservations.get(idempotency_key)
+
+    def add(self, reservation: BudgetReservation) -> None:
+        self.reservations[reservation.idempotency_key] = reservation
+
+    def update(self, reservation: BudgetReservation) -> None:
+        self.reservations[reservation.idempotency_key] = reservation
+
+
+@pytest.fixture()
+def fake_repository() -> FakeBudgetReservationRepository:
+    return FakeBudgetReservationRepository()
 
 
 @pytest.fixture()

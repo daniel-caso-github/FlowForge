@@ -9,12 +9,12 @@ from temporalio.testing import WorkflowEnvironment
 from temporalio.worker import Worker
 from worker.workflows import TASK_QUEUE, InvoiceWorkflow
 
-from tests.conftest import make_fake_activities
-
 pytestmark = pytest.mark.asyncio
 
 
-async def test_happy_path_runs_every_step_in_order_with_no_compensation():
+async def test_happy_path_runs_every_step_in_order_with_no_compensation(
+    fake_activities_factory,
+):
     calls: list[str] = []
     async with await WorkflowEnvironment.start_time_skipping(
         data_converter=pydantic_data_converter
@@ -23,7 +23,7 @@ async def test_happy_path_runs_every_step_in_order_with_no_compensation():
             env.client,
             task_queue=TASK_QUEUE,
             workflows=[InvoiceWorkflow],
-            activities=make_fake_activities(calls),
+            activities=fake_activities_factory(calls),
         ):
             payload = InvoiceDemoPayload(
                 invoice_id="inv-1",

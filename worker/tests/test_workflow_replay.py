@@ -9,12 +9,10 @@ from temporalio.testing import WorkflowEnvironment
 from temporalio.worker import Replayer, Worker
 from worker.workflows import TASK_QUEUE, InvoiceWorkflow
 
-from tests.conftest import make_fake_activities
-
 pytestmark = pytest.mark.asyncio
 
 
-async def test_completed_workflow_history_replays_without_error():
+async def test_completed_workflow_history_replays_without_error(fake_activities_factory):
     calls: list[str] = []
     async with await WorkflowEnvironment.start_time_skipping(
         data_converter=pydantic_data_converter
@@ -23,7 +21,7 @@ async def test_completed_workflow_history_replays_without_error():
             env.client,
             task_queue=TASK_QUEUE,
             workflows=[InvoiceWorkflow],
-            activities=make_fake_activities(calls),
+            activities=fake_activities_factory(calls),
         ):
             payload = InvoiceDemoPayload(
                 invoice_id="inv-1",

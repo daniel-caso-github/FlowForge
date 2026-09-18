@@ -19,3 +19,7 @@ class BudgetReservationRepository(Protocol):
     def add(self, reservation: BudgetReservation) -> None: ...
 
     def update(self, reservation: BudgetReservation) -> None: ...
+
+
+class ReservationNotFoundError(Exception):
+    pass

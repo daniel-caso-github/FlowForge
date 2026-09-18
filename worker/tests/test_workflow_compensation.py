@@ -10,12 +10,12 @@ from temporalio.testing import WorkflowEnvironment
 from temporalio.worker import Worker
 from worker.workflows import TASK_QUEUE, InvoiceWorkflow
 
-from tests.conftest import make_fake_activities
-
 pytestmark = pytest.mark.asyncio
 
 
-async def test_forced_failure_before_pivot_compensates_in_reverse_order():
+async def test_forced_failure_before_pivot_compensates_in_reverse_order(
+    fake_activities_factory,
+):
     calls: list[str] = []
     async with await WorkflowEnvironment.start_time_skipping(
         data_converter=pydantic_data_converter
@@ -24,7 +24,7 @@ async def test_forced_failure_before_pivot_compensates_in_reverse_order():
             env.client,
             task_queue=TASK_QUEUE,
             workflows=[InvoiceWorkflow],
-            activities=make_fake_activities(calls, fail_at="post_to_erp"),
+            activities=fake_activities_factory(calls, fail_at="post_to_erp"),
         ):
             payload = InvoiceDemoPayload(
                 invoice_id="inv-1",
@@ -43,7 +43,7 @@ async def test_forced_failure_before_pivot_compensates_in_reverse_order():
     assert calls == ["validate_invoice", "reserve_budget", "post_to_erp", "release_budget"]
 
 
-async def test_failure_after_pivot_does_not_compensate():
+async def test_failure_after_pivot_does_not_compensate(fake_activities_factory):
     calls: list[str] = []
     async with await WorkflowEnvironment.start_time_skipping(
         data_converter=pydantic_data_converter
@@ -52,7 +52,7 @@ async def test_failure_after_pivot_does_not_compensate():
             env.client,
             task_queue=TASK_QUEUE,
             workflows=[InvoiceWorkflow],
-            activities=make_fake_activities(calls, fail_at="confirm_payment"),
+            activities=fake_activities_factory(calls, fail_at="confirm_payment"),
         ):
             payload = InvoiceDemoPayload(
                 invoice_id="inv-1",
