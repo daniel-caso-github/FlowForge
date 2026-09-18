@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-from budget_service.db import Base, engine
-from budget_service.routes import router
+from budget_service.api.routes import router
+from budget_service.infrastructure.db import Base, engine
 
 Base.metadata.create_all(bind=engine)
 

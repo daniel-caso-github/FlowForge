@@ -4,10 +4,10 @@ from sqlalchemy import DateTime, Numeric, String
 from sqlalchemy.orm import Mapped, mapped_column
 from sqlalchemy.sql import func
 
-from budget_service.db import Base
+from budget_service.infrastructure.db import Base
 
 
-class BudgetReservation(Base):
+class BudgetReservationModel(Base):
     __tablename__ = "budget_reservations"
 
     idempotency_key: Mapped[str] = mapped_column(String, primary_key=True)

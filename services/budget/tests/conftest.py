@@ -1,7 +1,6 @@
 import pytest
-from budget_service.db import Base
+from budget_service.infrastructure.db import Base, get_db
 from budget_service.main import app
-from budget_service.routes import get_db
 from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker

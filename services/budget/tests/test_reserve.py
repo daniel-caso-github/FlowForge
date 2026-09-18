@@ -1,6 +1,6 @@
+from budget_service.infrastructure.db import get_db
+from budget_service.infrastructure.models import BudgetReservationModel
 from budget_service.main import app
-from budget_service.models import BudgetReservation
-from budget_service.routes import get_db
 from sqlalchemy import select
 
 
@@ -31,5 +31,5 @@ def test_reserve_is_idempotent_for_the_same_key(client):
 
     override = app.dependency_overrides[get_db]
     db = next(override())
-    rows = db.execute(select(BudgetReservation)).scalars().all()
+    rows = db.execute(select(BudgetReservationModel)).scalars().all()
     assert len(rows) == 1
