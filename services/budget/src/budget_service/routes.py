@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 from flowforge_contracts.budget import ReserveBudgetRequest, ReserveBudgetResponse
 from sqlalchemy.orm import Session
 
@@ -33,5 +33,15 @@ def reserve(
         status="reserved",
     )
     db.add(reservation)
+    db.commit()
+    return ReserveBudgetResponse(idempotency_key=reservation.idempotency_key, status=reservation.status)
+
+
+@router.post("/reservations/{idempotency_key}/release", response_model=ReserveBudgetResponse)
+def release(idempotency_key: str, db: Session = Depends(get_db)) -> ReserveBudgetResponse:
+    reservation = db.get(BudgetReservation, idempotency_key)
+    if reservation is None:
+        raise HTTPException(status_code=404, detail="reservation not found")
+    reservation.status = "released"
     db.commit()
     return ReserveBudgetResponse(idempotency_key=reservation.idempotency_key, status=reservation.status)
