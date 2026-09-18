@@ -11,3 +11,20 @@ tasks:
     cmds:
       - uv run --all-extras ruff check .
       - uv run --all-extras mypy .
+
+  up:
+    desc: Start the local Phase 0 stack
+    dir: infra/compose
+    cmds:
+      - docker compose up -d --build
+
+  down:
+    desc: Stop the local Phase 0 stack
+    dir: infra/compose
+    cmds:
+      - docker compose down
+
+  demo:start-invoice:
+    desc: Start a demo InvoiceWorkflow against the running stack
+    cmds:
+      - uv run --all-extras --package worker python worker/scripts/start_invoice.py {{.CLI_ARGS}}

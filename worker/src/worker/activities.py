@@ -48,7 +48,11 @@ async def reserve_budget(payload: InvoiceDemoPayload) -> None:
         amount=payload.amount,
     )
     async with httpx.AsyncClient(base_url=BUDGET_SERVICE_URL) as client:
-        response = await client.post("/reservations", content=request.model_dump_json())
+        response = await client.post(
+            "/reservations",
+            content=request.model_dump_json(),
+            headers={"Content-Type": "application/json"},
+        )
         response.raise_for_status()
 
 
@@ -75,7 +79,11 @@ async def post_to_erp(payload: InvoiceDemoPayload) -> None:
         amount=payload.amount,
     )
     async with httpx.AsyncClient(base_url=EXTERNAL_SIM_URL) as client:
-        response = await client.post("/erp/invoices", content=request.model_dump_json())
+        response = await client.post(
+            "/erp/invoices",
+            content=request.model_dump_json(),
+            headers={"Content-Type": "application/json"},
+        )
         response.raise_for_status()
 
 
@@ -100,7 +108,11 @@ async def schedule_payment(payload: InvoiceDemoPayload) -> None:
         amount=payload.amount,
     )
     async with httpx.AsyncClient(base_url=EXTERNAL_SIM_URL) as client:
-        response = await client.post("/payments/schedule", content=request.model_dump_json())
+        response = await client.post(
+            "/payments/schedule",
+            content=request.model_dump_json(),
+            headers={"Content-Type": "application/json"},
+        )
         response.raise_for_status()
 
 
@@ -115,5 +127,9 @@ async def confirm_payment(payload: InvoiceDemoPayload) -> None:
         invoice_id=payload.invoice_id,
     )
     async with httpx.AsyncClient(base_url=EXTERNAL_SIM_URL) as client:
-        response = await client.post("/payments/confirm", content=request.model_dump_json())
+        response = await client.post(
+            "/payments/confirm",
+            content=request.model_dump_json(),
+            headers={"Content-Type": "application/json"},
+        )
         response.raise_for_status()
