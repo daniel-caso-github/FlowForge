@@ -6,9 +6,11 @@ requires-python = ">=3.12"
 [tool.uv.workspace]
 members = [
     "libs/contracts",
+    "libs/jurisdiction-packs",
     "services/budget",
     "services/external-sim",
     "worker",
+    "datagen",
 ]
 
 [dependency-groups]
