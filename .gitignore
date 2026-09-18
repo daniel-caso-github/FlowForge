@@ -1,9 +1,11 @@
 # Claude Code tooling — local only, not part of the public repo
 .claude/
 .mcp.json
+CLAUDE.md
 
 # Claude planning/spec artifacts — internal, not part of the project's public docs
 docs/superpowers/
+.superpowers/
 
 # OS / IDE
 .DS_Store
