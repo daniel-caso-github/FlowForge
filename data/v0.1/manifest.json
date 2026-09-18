@@ -1,0 +1,2702 @@
+[
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00001.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00001",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00001.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00002.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00002",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00002.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00003.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00003",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00003.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00004.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00004",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00004.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00005.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00005",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00005.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00006.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00006",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00006.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00007.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00007",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00007.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00008.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00008",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00008.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00009.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00009",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00009.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00010.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00010",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00010.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00011.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00011",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00011.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00012.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00012",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00012.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00013.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00013",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00013.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00014.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00014",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00014.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00015.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00015",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00015.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00016.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00016",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00016.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00017.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00017",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00017.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00018.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00018",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00018.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00019.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00019",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00019.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00020.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00020",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00020.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00021.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00021",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00021.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00022.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00022",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00022.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00023.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00023",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00023.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00024.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00024",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00024.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00025.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00025",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00025.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00026.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00026",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00026.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00027.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00027",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00027.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00028.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00028",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00028.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00029.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00029",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00029.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00030.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00030",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00030.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00031.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00031",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00031.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00032.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00032",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00032.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00033.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00033",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00033.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00034.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00034",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00034.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00035.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00035",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00035.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00036.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00036",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00036.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00037.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00037",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00037.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00038.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00038",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00038.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00039.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00039",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00039.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00040.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00040",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00040.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00041.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00041",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00041.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00042.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00042",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00042.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00043.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00043",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00043.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00044.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00044",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00044.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00045.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00045",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00045.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00046.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00046",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00046.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00047.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00047",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00047.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00048.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00048",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00048.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00049.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00049",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00049.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00050.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00050",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00050.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00051.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00051",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00051.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00052.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00052",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00052.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00053.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00053",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00053.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00054.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00054",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00054.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00055.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00055",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00055.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00056.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00056",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00056.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00057.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00057",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00057.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00058.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00058",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00058.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00059.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00059",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00059.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00060.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00060",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00060.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00061.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00061",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00061.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00062.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00062",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00062.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00063.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00063",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00063.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00064.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00064",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00064.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00065.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00065",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00065.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00066.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00066",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00066.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00067.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00067",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00067.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00068.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00068",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00068.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00069.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00069",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00069.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00070.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00070",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00070.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00071.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00071",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00071.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00072.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00072",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00072.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00073.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00073",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00073.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00074.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path-00074",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00074.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path-00075.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path-00075",
+    "scenario": "happy_path",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path-00075.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00076.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00076",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00076.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00077.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00077",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00077.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00078.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00078",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00078.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00079.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00079",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00079.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00080.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00080",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00080.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00081.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00081",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00081.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00082.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00082",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00082.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00083.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00083",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00083.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00084.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00084",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00084.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00085.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00085",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00085.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00086.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00086",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00086.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00087.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00087",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00087.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00088.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00088",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00088.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00089.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00089",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00089.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00090.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00090",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00090.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00091.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00091",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00091.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00092.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00092",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00092.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00093.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00093",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00093.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00094.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00094",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00094.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00095.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00095",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00095.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00096.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00096",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00096.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00097.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00097",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00097.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00098.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00098",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00098.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00099.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00099",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00099.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00100.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00100",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00100.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00101.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00101",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00101.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00102.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00102",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00102.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00103.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00103",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00103.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00104.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00104",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00104.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00105.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00105",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00105.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00106.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00106",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00106.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00107.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00107",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00107.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00108.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00108",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00108.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00109.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00109",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00109.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00110.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00110",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00110.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00111.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00111",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00111.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00112.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00112",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00112.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00113.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00113",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00113.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00114.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00114",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00114.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00115.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00115",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00115.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00116.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00116",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00116.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00117.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00117",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00117.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00118.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00118",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00118.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00119.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-happy_path_with_withholding-00119",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00119.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-happy_path_with_withholding-00120.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-happy_path_with_withholding-00120",
+    "scenario": "happy_path_with_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-happy_path_with_withholding-00120.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00121.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-wrong_tax_calculation-00121",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00121.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00122.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-wrong_tax_calculation-00122",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00122.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00123.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-wrong_tax_calculation-00123",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00123.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00124.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-wrong_tax_calculation-00124",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00124.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00125.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-wrong_tax_calculation-00125",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00125.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00126.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-wrong_tax_calculation-00126",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00126.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00127.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-wrong_tax_calculation-00127",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00127.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00128.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-wrong_tax_calculation-00128",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00128.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00129.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-wrong_tax_calculation-00129",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00129.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00130.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-wrong_tax_calculation-00130",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00130.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00131.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-wrong_tax_calculation-00131",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00131.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00132.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-wrong_tax_calculation-00132",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00132.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00133.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-wrong_tax_calculation-00133",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00133.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00134.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-wrong_tax_calculation-00134",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00134.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-wrong_tax_calculation-00135.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-wrong_tax_calculation-00135",
+    "scenario": "wrong_tax_calculation",
+    "split": "dev",
+    "xml_path": "dev/dev-wrong_tax_calculation-00135.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00136.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-missing_withholding-00136",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00136.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00137.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-missing_withholding-00137",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00137.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00138.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-missing_withholding-00138",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00138.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00139.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-missing_withholding-00139",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00139.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00140.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-missing_withholding-00140",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00140.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00141.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-missing_withholding-00141",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00141.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00142.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-missing_withholding-00142",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00142.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00143.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-missing_withholding-00143",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00143.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00144.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-missing_withholding-00144",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00144.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00145.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-missing_withholding-00145",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00145.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00146.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-missing_withholding-00146",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00146.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00147.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-missing_withholding-00147",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00147.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00148.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-missing_withholding-00148",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00148.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00149.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-missing_withholding-00149",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00149.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-missing_withholding-00150.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-missing_withholding-00150",
+    "scenario": "missing_withholding",
+    "split": "dev",
+    "xml_path": "dev/dev-missing_withholding-00150.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00151.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-invalid_tax_id-00151",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00151.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00152.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-invalid_tax_id-00152",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00152.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00153.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-invalid_tax_id-00153",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00153.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00154.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-invalid_tax_id-00154",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00154.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00155.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-invalid_tax_id-00155",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00155.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00156.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-invalid_tax_id-00156",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00156.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00157.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-invalid_tax_id-00157",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00157.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00158.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-invalid_tax_id-00158",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00158.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00159.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-invalid_tax_id-00159",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00159.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00160.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-invalid_tax_id-00160",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00160.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00161.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-invalid_tax_id-00161",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00161.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00162.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-invalid_tax_id-00162",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00162.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00163.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-invalid_tax_id-00163",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00163.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00164.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-invalid_tax_id-00164",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00164.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-invalid_tax_id-00165.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-invalid_tax_id-00165",
+    "scenario": "invalid_tax_id",
+    "split": "dev",
+    "xml_path": "dev/dev-invalid_tax_id-00165.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00166.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_currency-00166",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00166.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00167.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-multi_currency-00167",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00167.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00168.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_currency-00168",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00168.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00169.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-multi_currency-00169",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00169.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00170.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_currency-00170",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00170.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00171.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-multi_currency-00171",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00171.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00172.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_currency-00172",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00172.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00173.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-multi_currency-00173",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00173.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00174.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_currency-00174",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00174.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00175.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-multi_currency-00175",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00175.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00176.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_currency-00176",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00176.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00177.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-multi_currency-00177",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00177.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00178.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_currency-00178",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00178.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00179.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-multi_currency-00179",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00179.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_currency-00180.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_currency-00180",
+    "scenario": "multi_currency",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_currency-00180.xml"
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00181.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_full-00181",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00182.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_full-00182",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00183.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_full-00183",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00184.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_full-00184",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00185.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_full-00185",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00186.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_full-00186",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00187.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_full-00187",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00188.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_full-00188",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00189.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_full-00189",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00190.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_full-00190",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00191.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_full-00191",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00192.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_full-00192",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00193.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_full-00193",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00194.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_full-00194",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_full-00195.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_full-00195",
+    "scenario": "credit_note_full",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00196.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_partial-00196",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00197.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_partial-00197",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00198.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_partial-00198",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00199.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_partial-00199",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00200.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_partial-00200",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00201.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_partial-00201",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00202.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_partial-00202",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00203.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_partial-00203",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00204.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_partial-00204",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00205.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_partial-00205",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00206.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_partial-00206",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00207.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_partial-00207",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00208.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_partial-00208",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00209.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "dev-credit_note_partial-00209",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "dev/dev-credit_note_partial-00210.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "dev-credit_note_partial-00210",
+    "scenario": "credit_note_partial",
+    "split": "dev",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00211.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-duplicate_pair-00211",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00211.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00212.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-duplicate_pair-00212",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00212.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00213.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-duplicate_pair-00213",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00213.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00214.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-duplicate_pair-00214",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00214.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00215.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-duplicate_pair-00215",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00215.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00216.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-duplicate_pair-00216",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00216.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00217.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-duplicate_pair-00217",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00217.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00218.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-duplicate_pair-00218",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00218.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00219.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-duplicate_pair-00219",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00219.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00220.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-duplicate_pair-00220",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00220.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00221.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-duplicate_pair-00221",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00221.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00222.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-duplicate_pair-00222",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00222.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00223.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-duplicate_pair-00223",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00223.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00224.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-duplicate_pair-00224",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00224.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-duplicate_pair-00225.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-duplicate_pair-00225",
+    "scenario": "duplicate_pair",
+    "split": "dev",
+    "xml_path": "dev/dev-duplicate_pair-00225.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00226.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_line-00226",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00226.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00227.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-multi_line-00227",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00227.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00228.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_line-00228",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00228.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00229.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-multi_line-00229",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00229.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00230.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_line-00230",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00230.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00231.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-multi_line-00231",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00231.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00232.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_line-00232",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00232.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00233.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-multi_line-00233",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00233.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00234.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_line-00234",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00234.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00235.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-multi_line-00235",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00235.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00236.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_line-00236",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00236.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00237.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-multi_line-00237",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00237.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00238.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_line-00238",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00238.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00239.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "dev-multi_line-00239",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00239.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "dev/dev-multi_line-00240.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "dev-multi_line-00240",
+    "scenario": "multi_line",
+    "split": "dev",
+    "xml_path": "dev/dev-multi_line-00240.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00241.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path-00241",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00241.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00242.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path-00242",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00242.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00243.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path-00243",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00243.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00244.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path-00244",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00244.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00245.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path-00245",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00245.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00246.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path-00246",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00246.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00247.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path-00247",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00247.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00248.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path-00248",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00248.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00249.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path-00249",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00249.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00250.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path-00250",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00250.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00251.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path-00251",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00251.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00252.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path-00252",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00252.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00253.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path-00253",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00253.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00254.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path-00254",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00254.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00255.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path-00255",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00255.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00256.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path-00256",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00256.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00257.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path-00257",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00257.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00258.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path-00258",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00258.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00259.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path-00259",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00259.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00260.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path-00260",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00260.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00261.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path-00261",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00261.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00262.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path-00262",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00262.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path-00263.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path-00263",
+    "scenario": "happy_path",
+    "split": "test",
+    "xml_path": "test/test-happy_path-00263.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path_with_withholding-00264.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path_with_withholding-00264",
+    "scenario": "happy_path_with_withholding",
+    "split": "test",
+    "xml_path": "test/test-happy_path_with_withholding-00264.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path_with_withholding-00265.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path_with_withholding-00265",
+    "scenario": "happy_path_with_withholding",
+    "split": "test",
+    "xml_path": "test/test-happy_path_with_withholding-00265.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path_with_withholding-00266.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path_with_withholding-00266",
+    "scenario": "happy_path_with_withholding",
+    "split": "test",
+    "xml_path": "test/test-happy_path_with_withholding-00266.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path_with_withholding-00267.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path_with_withholding-00267",
+    "scenario": "happy_path_with_withholding",
+    "split": "test",
+    "xml_path": "test/test-happy_path_with_withholding-00267.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path_with_withholding-00268.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path_with_withholding-00268",
+    "scenario": "happy_path_with_withholding",
+    "split": "test",
+    "xml_path": "test/test-happy_path_with_withholding-00268.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path_with_withholding-00269.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path_with_withholding-00269",
+    "scenario": "happy_path_with_withholding",
+    "split": "test",
+    "xml_path": "test/test-happy_path_with_withholding-00269.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path_with_withholding-00270.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path_with_withholding-00270",
+    "scenario": "happy_path_with_withholding",
+    "split": "test",
+    "xml_path": "test/test-happy_path_with_withholding-00270.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path_with_withholding-00271.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path_with_withholding-00271",
+    "scenario": "happy_path_with_withholding",
+    "split": "test",
+    "xml_path": "test/test-happy_path_with_withholding-00271.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path_with_withholding-00272.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path_with_withholding-00272",
+    "scenario": "happy_path_with_withholding",
+    "split": "test",
+    "xml_path": "test/test-happy_path_with_withholding-00272.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path_with_withholding-00273.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path_with_withholding-00273",
+    "scenario": "happy_path_with_withholding",
+    "split": "test",
+    "xml_path": "test/test-happy_path_with_withholding-00273.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path_with_withholding-00274.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path_with_withholding-00274",
+    "scenario": "happy_path_with_withholding",
+    "split": "test",
+    "xml_path": "test/test-happy_path_with_withholding-00274.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path_with_withholding-00275.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-happy_path_with_withholding-00275",
+    "scenario": "happy_path_with_withholding",
+    "split": "test",
+    "xml_path": "test/test-happy_path_with_withholding-00275.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-happy_path_with_withholding-00276.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-happy_path_with_withholding-00276",
+    "scenario": "happy_path_with_withholding",
+    "split": "test",
+    "xml_path": "test/test-happy_path_with_withholding-00276.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-wrong_tax_calculation-00277.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-wrong_tax_calculation-00277",
+    "scenario": "wrong_tax_calculation",
+    "split": "test",
+    "xml_path": "test/test-wrong_tax_calculation-00277.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-wrong_tax_calculation-00278.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-wrong_tax_calculation-00278",
+    "scenario": "wrong_tax_calculation",
+    "split": "test",
+    "xml_path": "test/test-wrong_tax_calculation-00278.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-wrong_tax_calculation-00279.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-wrong_tax_calculation-00279",
+    "scenario": "wrong_tax_calculation",
+    "split": "test",
+    "xml_path": "test/test-wrong_tax_calculation-00279.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-missing_withholding-00280.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-missing_withholding-00280",
+    "scenario": "missing_withholding",
+    "split": "test",
+    "xml_path": "test/test-missing_withholding-00280.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-missing_withholding-00281.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-missing_withholding-00281",
+    "scenario": "missing_withholding",
+    "split": "test",
+    "xml_path": "test/test-missing_withholding-00281.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-missing_withholding-00282.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-missing_withholding-00282",
+    "scenario": "missing_withholding",
+    "split": "test",
+    "xml_path": "test/test-missing_withholding-00282.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-invalid_tax_id-00283.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-invalid_tax_id-00283",
+    "scenario": "invalid_tax_id",
+    "split": "test",
+    "xml_path": "test/test-invalid_tax_id-00283.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-invalid_tax_id-00284.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-invalid_tax_id-00284",
+    "scenario": "invalid_tax_id",
+    "split": "test",
+    "xml_path": "test/test-invalid_tax_id-00284.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-invalid_tax_id-00285.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-invalid_tax_id-00285",
+    "scenario": "invalid_tax_id",
+    "split": "test",
+    "xml_path": "test/test-invalid_tax_id-00285.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-multi_currency-00286.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-multi_currency-00286",
+    "scenario": "multi_currency",
+    "split": "test",
+    "xml_path": "test/test-multi_currency-00286.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-multi_currency-00287.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-multi_currency-00287",
+    "scenario": "multi_currency",
+    "split": "test",
+    "xml_path": "test/test-multi_currency-00287.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-multi_currency-00288.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-multi_currency-00288",
+    "scenario": "multi_currency",
+    "split": "test",
+    "xml_path": "test/test-multi_currency-00288.xml"
+  },
+  {
+    "credit_note_json_path": "test/test-credit_note_full-00289.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "test-credit_note_full-00289",
+    "scenario": "credit_note_full",
+    "split": "test",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "test/test-credit_note_full-00290.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "test-credit_note_full-00290",
+    "scenario": "credit_note_full",
+    "split": "test",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "test/test-credit_note_full-00291.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "test-credit_note_full-00291",
+    "scenario": "credit_note_full",
+    "split": "test",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "test/test-credit_note_partial-00292.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "test-credit_note_partial-00292",
+    "scenario": "credit_note_partial",
+    "split": "test",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "test/test-credit_note_partial-00293.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "ES",
+    "record_id": "test-credit_note_partial-00293",
+    "scenario": "credit_note_partial",
+    "split": "test",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": "test/test-credit_note_partial-00294.credit_note.json",
+    "invoice_json_path": null,
+    "jurisdiction": "PE",
+    "record_id": "test-credit_note_partial-00294",
+    "scenario": "credit_note_partial",
+    "split": "test",
+    "xml_path": null
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-duplicate_pair-00295.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-duplicate_pair-00295",
+    "scenario": "duplicate_pair",
+    "split": "test",
+    "xml_path": "test/test-duplicate_pair-00295.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-duplicate_pair-00296.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-duplicate_pair-00296",
+    "scenario": "duplicate_pair",
+    "split": "test",
+    "xml_path": "test/test-duplicate_pair-00296.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-duplicate_pair-00297.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-duplicate_pair-00297",
+    "scenario": "duplicate_pair",
+    "split": "test",
+    "xml_path": "test/test-duplicate_pair-00297.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-multi_line-00298.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-multi_line-00298",
+    "scenario": "multi_line",
+    "split": "test",
+    "xml_path": "test/test-multi_line-00298.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-multi_line-00299.invoice.json",
+    "jurisdiction": "ES",
+    "record_id": "test-multi_line-00299",
+    "scenario": "multi_line",
+    "split": "test",
+    "xml_path": "test/test-multi_line-00299.xml"
+  },
+  {
+    "credit_note_json_path": null,
+    "invoice_json_path": "test/test-multi_line-00300.invoice.json",
+    "jurisdiction": "PE",
+    "record_id": "test-multi_line-00300",
+    "scenario": "multi_line",
+    "split": "test",
+    "xml_path": "test/test-multi_line-00300.xml"
+  }
+]
