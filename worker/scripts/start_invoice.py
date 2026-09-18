@@ -7,7 +7,6 @@ from flowforge_contracts.invoice import InvoiceDemoPayload
 from flowforge_contracts.money import Money
 from temporalio.client import Client
 from temporalio.contrib.pydantic import pydantic_data_converter
-
 from worker.workflows import TASK_QUEUE, InvoiceWorkflow
 
 TEMPORAL_ADDRESS = "localhost:7233"

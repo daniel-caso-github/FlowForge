@@ -3,7 +3,11 @@ import os
 
 import httpx
 from flowforge_contracts.budget import ReleaseBudgetRequest, ReserveBudgetRequest
-from flowforge_contracts.erp import ConfirmPaymentRequest, PostInvoiceRequest, SchedulePaymentRequest
+from flowforge_contracts.erp import (
+    ConfirmPaymentRequest,
+    PostInvoiceRequest,
+    SchedulePaymentRequest,
+)
 from flowforge_contracts.invoice import InvoiceDemoPayload
 from temporalio import activity
 from temporalio.exceptions import ApplicationError

@@ -22,7 +22,9 @@ def reserve(
 ) -> ReserveBudgetResponse:
     existing = db.get(BudgetReservation, request.idempotency_key)
     if existing is not None:
-        return ReserveBudgetResponse(idempotency_key=existing.idempotency_key, status=existing.status)
+        return ReserveBudgetResponse(
+            idempotency_key=existing.idempotency_key, status=existing.status
+        )
 
     reservation = BudgetReservation(
         idempotency_key=request.idempotency_key,
@@ -34,7 +36,9 @@ def reserve(
     )
     db.add(reservation)
     db.commit()
-    return ReserveBudgetResponse(idempotency_key=reservation.idempotency_key, status=reservation.status)
+    return ReserveBudgetResponse(
+        idempotency_key=reservation.idempotency_key, status=reservation.status
+    )
 
 
 @router.post("/reservations/{idempotency_key}/release", response_model=ReserveBudgetResponse)
@@ -44,4 +48,6 @@ def release(idempotency_key: str, db: Session = Depends(get_db)) -> ReserveBudge
         raise HTTPException(status_code=404, detail="reservation not found")
     reservation.status = "released"
     db.commit()
-    return ReserveBudgetResponse(idempotency_key=reservation.idempotency_key, status=reservation.status)
+    return ReserveBudgetResponse(
+        idempotency_key=reservation.idempotency_key, status=reservation.status
+    )

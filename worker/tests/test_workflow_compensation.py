@@ -8,9 +8,9 @@ from temporalio.client import WorkflowFailureError
 from temporalio.contrib.pydantic import pydantic_data_converter
 from temporalio.testing import WorkflowEnvironment
 from temporalio.worker import Worker
+from worker.workflows import TASK_QUEUE, InvoiceWorkflow
 
 from tests.conftest import make_fake_activities
-from worker.workflows import TASK_QUEUE, InvoiceWorkflow
 
 pytestmark = pytest.mark.asyncio
 

@@ -7,7 +7,6 @@ from flowforge_contracts.invoice import InvoiceDemoPayload
 from flowforge_contracts.money import Money
 from temporalio.exceptions import ApplicationError
 from temporalio.testing import ActivityEnvironment
-
 from worker.activities import reserve_budget, schedule_payment, validate_invoice
 
 pytestmark = pytest.mark.asyncio

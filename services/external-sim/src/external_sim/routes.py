@@ -1,5 +1,9 @@
 from fastapi import APIRouter, Request
-from flowforge_contracts.erp import ConfirmPaymentRequest, PostInvoiceRequest, SchedulePaymentRequest
+from flowforge_contracts.erp import (
+    ConfirmPaymentRequest,
+    PostInvoiceRequest,
+    SchedulePaymentRequest,
+)
 
 router = APIRouter()
 

@@ -1,9 +1,8 @@
 from decimal import Decimal
 
 import pytest
-from pydantic import ValidationError
-
 from flowforge_contracts.money import Money
+from pydantic import ValidationError
 
 
 def test_money_holds_amount_and_currency():

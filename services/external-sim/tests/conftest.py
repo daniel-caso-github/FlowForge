@@ -1,9 +1,8 @@
 import pytest
-from fastapi import FastAPI
-from fastapi.testclient import TestClient
-
 from external_sim.routes import router
 from external_sim.store import InMemoryStore
+from fastapi import FastAPI
+from fastapi.testclient import TestClient
 
 
 @pytest.fixture()
