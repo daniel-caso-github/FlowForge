@@ -34,7 +34,9 @@ def _invoice_with_subtotal(amount: str) -> CanonicalInvoice:
         ],
         subtotal=_converted(amount), taxes=[], withholdings=[],
         total=_converted(amount), payable=_money(amount),
-        bank_account=BankAccountRef(last4="1234", fingerprint="x", account_number="ES00" + "0" * 20),
+        bank_account=BankAccountRef(
+            last4="1234", fingerprint="x", account_number="ES00" + "0" * 20
+        ),
         source_extraction_id=uuid4(),
     )
 

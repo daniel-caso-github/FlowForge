@@ -35,11 +35,13 @@ def generate_xml(invoice: CanonicalInvoice) -> bytes:
     ET.SubElement(ET.SubElement(root, _fe("FileHeader")), _fe("SchemaVersion")).text = "3.2.1"
 
     seller = ET.SubElement(ET.SubElement(root, _fe("Parties")), _fe("SellerParty"))
-    tax_id_el = ET.SubElement(ET.SubElement(seller, _fe("TaxIdentification")), _fe("TaxIdentificationNumber"))
+    tax_identification = ET.SubElement(seller, _fe("TaxIdentification"))
+    tax_id_el = ET.SubElement(tax_identification, _fe("TaxIdentificationNumber"))
     tax_id_el.text = invoice.supplier_tax_id
 
     invoice_el = ET.SubElement(ET.SubElement(root, _fe("Invoices")), _fe("Invoice"))
-    ET.SubElement(ET.SubElement(invoice_el, _fe("InvoiceHeader")), _fe("InvoiceNumber")).text = invoice.series_number
+    invoice_header = ET.SubElement(invoice_el, _fe("InvoiceHeader"))
+    ET.SubElement(invoice_header, _fe("InvoiceNumber")).text = invoice.series_number
 
     issue_data = ET.SubElement(invoice_el, _fe("InvoiceIssueData"))
     ET.SubElement(issue_data, _fe("IssueDate")).text = invoice.issue_date.isoformat()
@@ -52,8 +54,10 @@ def generate_xml(invoice: CanonicalInvoice) -> bytes:
         tax_el = ET.SubElement(taxes_el, _fe("Tax"))
         ET.SubElement(tax_el, _fe("TaxTypeCode")).text = tax.tax_type
         ET.SubElement(tax_el, _fe("TaxRate")).text = str(tax.rate)
-        ET.SubElement(ET.SubElement(tax_el, _fe("TaxableBase")), _fe("TotalAmount")).text = str(tax.base.amount)
-        ET.SubElement(ET.SubElement(tax_el, _fe("TaxAmount")), _fe("TotalAmount")).text = str(tax.amount.amount)
+        taxable_base = ET.SubElement(tax_el, _fe("TaxableBase"))
+        ET.SubElement(taxable_base, _fe("TotalAmount")).text = str(tax.base.amount)
+        tax_amount = ET.SubElement(tax_el, _fe("TaxAmount"))
+        ET.SubElement(tax_amount, _fe("TotalAmount")).text = str(tax.amount.amount)
 
     items_el = ET.SubElement(invoice_el, _fe("Items"))
     for line in invoice.lines:
@@ -111,7 +115,8 @@ def parse_structured(xml: bytes) -> CanonicalInvoice:
         )
 
     lines = []
-    for i, line_el in enumerate(invoice_el.findall(f"{_fe('Items')}/{_fe('InvoiceLine')}"), start=1):
+    line_elements = invoice_el.findall(f"{_fe('Items')}/{_fe('InvoiceLine')}")
+    for i, line_el in enumerate(line_elements, start=1):
         lines.append(
             InvoiceLine(
                 line_number=i,
@@ -120,7 +125,9 @@ def parse_structured(xml: bytes) -> CanonicalInvoice:
                 unit_price=Money(
                     amount=Decimal(line_el.find(_fe("UnitPriceWithoutTax")).text), currency=currency
                 ),
-                line_total=Money(amount=Decimal(line_el.find(_fe("TotalCost")).text), currency=currency),
+                line_total=Money(
+                    amount=Decimal(line_el.find(_fe("TotalCost")).text), currency=currency
+                ),
             )
         )
 

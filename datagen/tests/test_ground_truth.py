@@ -10,7 +10,9 @@ from jurisdiction_packs.pe.pack import PeruJurisdictionPack
 def test_pe_invoice_with_detraction_is_arithmetically_consistent():
     world = generate_master_data(seed=42)
     company = next(c for c in world.companies if c.jurisdiction == "PE")
-    supplier = next(s for s in world.suppliers if s.jurisdiction == "PE" and s.profile.detraction_rate)
+    supplier = next(
+        s for s in world.suppliers if s.jurisdiction == "PE" and s.profile.detraction_rate
+    )
     products = [p for p in world.products if p.currency == "PEN"][:1]
     pack = PeruJurisdictionPack()
 
@@ -27,7 +29,9 @@ def test_pe_invoice_with_detraction_is_arithmetically_consistent():
 def test_es_invoice_without_irpf_is_arithmetically_consistent():
     world = generate_master_data(seed=42)
     company = next(c for c in world.companies if c.jurisdiction == "ES")
-    supplier = next(s for s in world.suppliers if s.jurisdiction == "ES" and not s.profile.subject_to_irpf)
+    supplier = next(
+        s for s in world.suppliers if s.jurisdiction == "ES" and not s.profile.subject_to_irpf
+    )
     products = [p for p in world.products if p.currency == "EUR"][:1]
     pack = SpainJurisdictionPack()
 

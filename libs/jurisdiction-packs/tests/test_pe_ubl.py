@@ -37,7 +37,10 @@ def _sample_invoice() -> CanonicalInvoice:
         ],
         subtotal=_converted("100.00"),
         taxes=[
-            TaxLine(tax_type="IGV", rate=Decimal("0.18"), base=_money("100.00"), amount=_money("18.00"))
+            TaxLine(
+                tax_type="IGV", rate=Decimal("0.18"),
+                base=_money("100.00"), amount=_money("18.00"),
+            )
         ],
         withholdings=[],
         total=_converted("118.00"),

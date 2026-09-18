@@ -6,11 +6,17 @@ from flowforge_contracts.jurisdiction import Jurisdiction
 from flowforge_contracts.money import Money
 from flowforge_contracts.tax_line import TaxLine
 from flowforge_contracts.withholding_line import WithholdingLine
+
 from jurisdiction_packs.pe.bank_account import validate_cci
 from jurisdiction_packs.pe.tax_id import normalize_ruc, validate_ruc
 from jurisdiction_packs.pe.ubl import generate_xml as generate_ubl_xml
 from jurisdiction_packs.pe.ubl import parse_structured as parse_ubl_xml
-from jurisdiction_packs.protocol import CreditNoteKind, ExchangeRateRule, RoundingPolicy, ValidationResult
+from jurisdiction_packs.protocol import (
+    CreditNoteKind,
+    ExchangeRateRule,
+    RoundingPolicy,
+    ValidationResult,
+)
 
 IGV_RATE = Decimal("0.18")
 
@@ -63,7 +69,8 @@ class PeruJurisdictionPack:
         amount = (invoice.payable.amount * rate).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP)
         return [
             WithholdingLine(
-                kind="detraction", rate=rate, amount=Money(amount=amount, currency=currency), code="037"
+                kind="detraction", rate=rate,
+                amount=Money(amount=amount, currency=currency), code="037",
             )
         ]
 

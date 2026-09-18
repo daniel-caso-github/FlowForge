@@ -37,12 +37,17 @@ def _sample_invoice() -> CanonicalInvoice:
         ],
         subtotal=_converted("100.00"),
         taxes=[
-            TaxLine(tax_type="01", rate=Decimal("21.00"), base=_money("100.00"), amount=_money("21.00"))
+            TaxLine(
+                tax_type="01", rate=Decimal("21.00"),
+                base=_money("100.00"), amount=_money("21.00"),
+            )
         ],
         withholdings=[],
         total=_converted("121.00"),
         payable=_money("121.00"),
-        bank_account=BankAccountRef(last4="1234", fingerprint="abc", account_number="ES00" + "0" * 20),
+        bank_account=BankAccountRef(
+            last4="1234", fingerprint="abc", account_number="ES00" + "0" * 20
+        ),
         source_extraction_id=uuid4(),
     )
 

@@ -77,7 +77,9 @@ def generate_xml(invoice: CanonicalInvoice) -> bytes:
         ET.SubElement(category, _cbc("Percent")).text = str(tax.rate)
         ET.SubElement(ET.SubElement(category, _cac("TaxScheme")), _cbc("ID")).text = tax.tax_type
 
-    payable_el = ET.SubElement(ET.SubElement(root, _cac("LegalMonetaryTotal")), _cbc("PayableAmount"))
+    payable_el = ET.SubElement(
+        ET.SubElement(root, _cac("LegalMonetaryTotal")), _cbc("PayableAmount")
+    )
     payable_el.set("currencyID", invoice.payable.currency)
     payable_el.text = str(invoice.payable.amount)
 
@@ -117,7 +119,9 @@ def parse_structured(xml: bytes) -> CanonicalInvoice:
                 line_number=int(line_el.find(_cbc("ID")).text),
                 description=line_el.find(f"{_cac('Item')}/{_cbc('Description')}").text,
                 quantity=Decimal(line_el.find(_cbc("InvoicedQuantity")).text),
-                unit_price=Money(amount=Decimal(price_el.text), currency=price_el.get("currencyID")),
+                unit_price=Money(
+                    amount=Decimal(price_el.text), currency=price_el.get("currencyID")
+                ),
                 line_total=Money(
                     amount=Decimal(line_total_el.text), currency=line_total_el.get("currencyID")
                 ),

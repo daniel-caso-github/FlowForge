@@ -1,7 +1,7 @@
 import hashlib
 from datetime import date, timedelta
 from decimal import Decimal
-from uuid import uuid4
+from uuid import NAMESPACE_DNS, uuid5
 
 from flowforge_contracts.bank_account import BankAccountRef
 from flowforge_contracts.canonical_invoice import CanonicalInvoice
@@ -46,14 +46,18 @@ def build_invoice(
             rate_date=issue_date, rate_source="datagen-simulated",
         )
 
+    invoice_key = f"{company.id}:{supplier.tax_id}:{series_number}"
+    source_extraction_id = uuid5(NAMESPACE_DNS, f"extraction:{invoice_key}")
+
     draft = CanonicalInvoice(
-        invoice_key=f"{company.id}:{supplier.tax_id}:{series_number}",
+        invoice_key=invoice_key,
         company_id=company.id, jurisdiction=pack.code, supplier_tax_id=supplier.tax_id,
-        series_number=series_number, issue_date=issue_date, due_date=issue_date + timedelta(days=30),
+        series_number=series_number, issue_date=issue_date,
+        due_date=issue_date + timedelta(days=30),
         po_reference=None, lines=lines, subtotal=_converted(subtotal_amount),
         taxes=[], withholdings=[], total=_converted(subtotal_amount),
         payable=Money(amount=subtotal_amount, currency=currency),
-        bank_account=bank_account, source_extraction_id=uuid4(),
+        bank_account=bank_account, source_extraction_id=source_extraction_id,
     )
 
     taxes = pack.expected_taxes(draft)

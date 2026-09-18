@@ -1,7 +1,7 @@
 import random
 from dataclasses import dataclass
 from decimal import Decimal
-from uuid import UUID, uuid4
+from uuid import NAMESPACE_DNS, UUID, uuid5
 
 from flowforge_contracts.jurisdiction import Jurisdiction
 from jurisdiction_packs.es.bank_account import generate_valid_iban
@@ -47,19 +47,24 @@ def _random_digits(rng: random.Random, count: int) -> str:
     return "".join(rng.choice("0123456789") for _ in range(count))
 
 
+def _company_id(tax_id: str) -> UUID:
+    return uuid5(NAMESPACE_DNS, f"company:{tax_id}")
+
+
 def _pe_company(rng: random.Random, name: str) -> Company:
-    return Company(id=uuid4(), name=name, tax_id=generate_valid_ruc(_random_digits(rng, 10)), jurisdiction="PE")
+    tax_id = generate_valid_ruc(_random_digits(rng, 10))
+    return Company(id=_company_id(tax_id), name=name, tax_id=tax_id, jurisdiction="PE")
 
 
 def _es_company(rng: random.Random, name: str) -> Company:
-    return Company(
-        id=uuid4(), name=name, tax_id=generate_valid_cif("B", _random_digits(rng, 7)), jurisdiction="ES"
-    )
+    tax_id = generate_valid_cif("B", _random_digits(rng, 7))
+    return Company(id=_company_id(tax_id), name=name, tax_id=tax_id, jurisdiction="ES")
 
 
 def _pe_supplier(rng: random.Random, name: str, with_detraction: bool) -> Supplier:
     ruc = generate_valid_ruc(_random_digits(rng, 10))
-    profile = SupplierProfile(tax_id=ruc, detraction_rate=Decimal("0.12") if with_detraction else None)
+    detraction_rate = Decimal("0.12") if with_detraction else None
+    profile = SupplierProfile(tax_id=ruc, detraction_rate=detraction_rate)
     return Supplier(
         name=name, tax_id=ruc, jurisdiction="PE", bank_account_kind="CCI",
         bank_account_number=generate_valid_cci(_random_digits(rng, 18)), profile=profile,

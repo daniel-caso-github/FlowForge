@@ -8,9 +8,10 @@ from flowforge_contracts.money import Money
 
 
 def _converted(amount: Decimal, currency: str, rate_date: date) -> ConvertedMoney:
+    money = Money(amount=amount, currency=currency)
     return ConvertedMoney(
-        original=Money(amount=amount, currency=currency), base=Money(amount=amount, currency=currency),
-        rate=Decimal("1"), rate_date=rate_date, rate_source="datagen-simulated",
+        original=money, base=money, rate=Decimal("1"), rate_date=rate_date,
+        rate_source="datagen-simulated",
     )
 
 
@@ -53,10 +54,14 @@ def inject_multi_currency(
             "rate": rate,
         })
 
-    return invoice.model_copy(update={"subtotal": _convert(invoice.subtotal), "total": _convert(invoice.total)})
+    return invoice.model_copy(
+        update={"subtotal": _convert(invoice.subtotal), "total": _convert(invoice.total)}
+    )
 
 
-def build_credit_note(invoice: CanonicalInvoice, scope: Literal["full", "partial"]) -> CanonicalCreditNote:
+def build_credit_note(
+    invoice: CanonicalInvoice, scope: Literal["full", "partial"]
+) -> CanonicalCreditNote:
     lines = invoice.lines if scope == "full" else invoice.lines[: max(1, len(invoice.lines) // 2)]
     total_amount = sum((line.line_total.amount for line in lines), Decimal("0"))
     es_mode = "differences" if invoice.jurisdiction == "ES" and scope == "partial" else None
