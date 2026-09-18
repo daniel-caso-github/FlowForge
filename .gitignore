@@ -10,3 +10,11 @@ docs/superpowers/
 # OS / IDE
 .DS_Store
 .idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+uv.lock.bak
