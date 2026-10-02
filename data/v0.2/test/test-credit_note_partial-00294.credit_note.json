@@ -1,0 +1,35 @@
+{
+  "credit_note_key": "abafbd6b-edda-5d98-a2a4-809108ee200e:81618495930:FPE-credit_note_partial-0294:CN",
+  "references_invoice_key": "abafbd6b-edda-5d98-a2a4-809108ee200e:81618495930:FPE-credit_note_partial-0294",
+  "scope": "partial",
+  "reason_code": "01",
+  "es_rectification_mode": null,
+  "lines": [
+    {
+      "line_number": 1,
+      "description": "Consultoria de software",
+      "quantity": "1",
+      "unit_price": {
+        "amount": "150.00",
+        "currency": "PEN"
+      },
+      "line_total": {
+        "amount": "150.00",
+        "currency": "PEN"
+      }
+    }
+  ],
+  "total": {
+    "original": {
+      "amount": "150.00",
+      "currency": "PEN"
+    },
+    "base": {
+      "amount": "150.00",
+      "currency": "PEN"
+    },
+    "rate": "1",
+    "rate_date": "2026-10-22",
+    "rate_source": "datagen-simulated"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "credit_note_key": "c2421929-3104-5b33-b335-93c820934a27:B38849691:FES-credit_note_partial-0209:CN",
+  "references_invoice_key": "c2421929-3104-5b33-b335-93c820934a27:B38849691:FES-credit_note_partial-0209",
+  "scope": "partial",
+  "reason_code": "01",
+  "es_rectification_mode": "differences",
+  "lines": [
+    {
+      "line_number": 1,
+      "description": "Consultoria informatica",
+      "quantity": "1",
+      "unit_price": {
+        "amount": "180.00",
+        "currency": "EUR"
+      },
+      "line_total": {
+        "amount": "180.00",
+        "currency": "EUR"
+      }
+    }
+  ],
+  "total": {
+    "original": {
+      "amount": "180.00",
+      "currency": "EUR"
+    },
+    "base": {
+      "amount": "180.00",
+      "currency": "EUR"
+    },
+    "rate": "1",
+    "rate_date": "2026-07-29",
+    "rate_source": "datagen-simulated"
+  }
+}
