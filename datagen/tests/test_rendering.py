@@ -3,9 +3,9 @@ from decimal import Decimal
 from io import BytesIO
 from uuid import uuid4
 
-from datagen.rendering import render_invoice_pdf
+from datagen.rendering import render_credit_note_pdf, render_invoice_pdf
 from flowforge_contracts.bank_account import BankAccountRef
-from flowforge_contracts.canonical_invoice import CanonicalInvoice
+from flowforge_contracts.canonical_invoice import CanonicalCreditNote, CanonicalInvoice
 from flowforge_contracts.converted_money import ConvertedMoney
 from flowforge_contracts.invoice_line import InvoiceLine
 from flowforge_contracts.money import Money
@@ -70,4 +70,41 @@ def test_render_invoice_pdf_is_deterministic():
     company = "Andina Retail S.A.C."
     first = render_invoice_pdf(invoice, supplier_name=supplier, company_name=company)
     second = render_invoice_pdf(invoice, supplier_name=supplier, company_name=company)
+    assert first == second
+
+
+def _sample_credit_note() -> CanonicalCreditNote:
+    return CanonicalCreditNote(
+        credit_note_key="test-cn-key", references_invoice_key="test-key",
+        scope="full", reason_code="return",
+        lines=[InvoiceLine(
+            line_number=1, description="Consultoria de software",
+            quantity=Decimal("1"), unit_price=_money("150.00", "PEN"),
+            line_total=_money("150.00", "PEN"),
+        )],
+        total=_converted("177.00", "PEN"),
+    )
+
+
+def test_render_credit_note_pdf_produces_valid_pdf_with_text_layer():
+    pdf_bytes = render_credit_note_pdf(
+        _sample_credit_note(), supplier_name="Consultora Lima SAC",
+        company_name="Andina Retail S.A.C.", jurisdiction="PE",
+    )
+    assert pdf_bytes.startswith(b"%PDF-")
+    text = _extract_text(pdf_bytes)
+    assert "test-cn-key" in text
+    assert "test-key" in text
+
+
+def test_render_credit_note_pdf_is_deterministic():
+    credit_note = _sample_credit_note()
+    first = render_credit_note_pdf(
+        credit_note, supplier_name="Consultora Lima SAC",
+        company_name="Andina Retail S.A.C.", jurisdiction="PE",
+    )
+    second = render_credit_note_pdf(
+        credit_note, supplier_name="Consultora Lima SAC",
+        company_name="Andina Retail S.A.C.", jurisdiction="PE",
+    )
     assert first == second

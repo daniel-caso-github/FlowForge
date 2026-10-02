@@ -1,7 +1,7 @@
 from decimal import Decimal
 from io import BytesIO
 
-from flowforge_contracts.canonical_invoice import CanonicalInvoice
+from flowforge_contracts.canonical_invoice import CanonicalCreditNote, CanonicalInvoice
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet
@@ -85,5 +85,36 @@ def render_invoice_pdf(invoice: CanonicalInvoice, supplier_name: str, company_na
     elements.append(Spacer(1, 4 * mm))
     account_text = f"Bank account: {invoice.bank_account.account_number}"
     elements.append(Paragraph(account_text, styles["Normal"]))
+
+    return _build_pdf(elements)
+
+
+def render_credit_note_pdf(
+    credit_note: CanonicalCreditNote, supplier_name: str, company_name: str, jurisdiction: str,
+) -> bytes:
+    labels = LABELS[jurisdiction]
+    symbol = labels["currency_symbol"]
+    styles = getSampleStyleSheet()
+
+    elements = [
+        Paragraph(f"CREDIT NOTE {credit_note.credit_note_key}", styles["Title"]),
+        Spacer(1, 6 * mm),
+        Paragraph(
+            f"References invoice: {credit_note.references_invoice_key}", styles["Normal"],
+        ),
+        Paragraph(f"Supplier: {supplier_name}", styles["Normal"]),
+        Paragraph(f"Buyer: {company_name}", styles["Normal"]),
+        Paragraph(
+            f"Scope: {credit_note.scope} - Reason: {credit_note.reason_code}",
+            styles["Normal"],
+        ),
+        Spacer(1, 6 * mm),
+        _line_items_table(credit_note.lines, symbol),
+        Spacer(1, 6 * mm),
+        Paragraph(
+            f"Total: {_money(credit_note.total.original.amount, symbol)}",
+            styles["Normal"],
+        ),
+    ]
 
     return _build_pdf(elements)
