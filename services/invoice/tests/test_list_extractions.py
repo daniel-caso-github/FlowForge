@@ -6,5 +6,5 @@ def test_list_extractions_returns_all_versions_for_a_document(client, make_extra
     response = client.get("/documents/doc-1/extractions")
 
     assert response.status_code == 200
-    keys = {item["idempotency_key"] for item in response.json()}
-    assert keys == {"doc-1-attempt-1", "doc-1-attempt-2"}
+    keys = [item["idempotency_key"] for item in response.json()]
+    assert keys == ["doc-1-attempt-1", "doc-1-attempt-2"]

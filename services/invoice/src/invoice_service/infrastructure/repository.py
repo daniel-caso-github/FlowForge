@@ -1,3 +1,5 @@
+from datetime import UTC
+
 from flowforge_contracts.invoice_extraction import ExtractionRunMetadata, InvoiceExtraction
 from sqlalchemy import select
 from sqlalchemy.orm import Session
@@ -48,6 +50,18 @@ class SqlAlchemyExtractionRepository:
 
 
 def _to_domain(record: ExtractionModel) -> Extraction:
+    created_at = record.created_at
+    if created_at.tzinfo is None:
+        # SQLite's DateTime(timezone=True) round-trips as naive; every
+        # created_at written by this service is UTC (see RecordExtractionCommandHandler).
+        created_at = created_at.replace(tzinfo=UTC)
+
+    # SQLite's generic Numeric column pads cost_usd with trailing zeros on
+    # round-trip (e.g. 0.001 -> 0.0010000000); normalize restores the original
+    # representation. Decimal equality ignores trailing zeros, so this must run
+    # unconditionally rather than behind a `!=` check.
+    cost_usd = record.cost_usd.normalize()
+
     return Extraction(
         idempotency_key=record.idempotency_key,
         document_id=record.document_id,
@@ -59,8 +73,8 @@ def _to_domain(record: ExtractionModel) -> Extraction:
             escalation_model=record.escalation_model,
             input_tokens=record.input_tokens,
             output_tokens=record.output_tokens,
-            cost_usd=record.cost_usd,
+            cost_usd=cost_usd,
             latency_ms=record.latency_ms,
         ),
-        created_at=record.created_at,
+        created_at=created_at,
     )
