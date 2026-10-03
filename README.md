@@ -77,4 +77,4 @@ task down  # stop
 - `datagen` — synthetic dataset generator (ground-truth invoices, degradation, scenario injection)
 - `worker` — Temporal workflows and activities (saga orchestration)
 - `services/budget`, `services/external-sim` — FastAPI services
-- `data/v0.1` — generated synthetic dataset
+- `data/v0.1`, `data/v0.2` — generated synthetic datasets (v0.2 adds a rendered PDF per record)

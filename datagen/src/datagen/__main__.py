@@ -8,7 +8,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Generate the FlowForge synthetic invoice dataset")
     parser.add_argument("command", choices=["generate"])
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--out", type=Path, default=Path("data/v0.1"))
+    parser.add_argument("--out", type=Path, default=Path("data/v0.2"))
     args = parser.parse_args()
 
     result = generate_dataset(seed=args.seed, out_dir=args.out)

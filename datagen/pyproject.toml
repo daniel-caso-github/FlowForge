@@ -5,6 +5,7 @@ requires-python = ">=3.12"
 dependencies = [
     "flowforge-contracts",
     "jurisdiction-packs",
+    "reportlab>=4.0",
 ]
 
 [tool.uv.sources]
@@ -12,7 +13,7 @@ flowforge-contracts = { workspace = true }
 jurisdiction-packs = { workspace = true }
 
 [project.optional-dependencies]
-dev = ["pytest>=8.0", "hypothesis>=6.100"]
+dev = ["pytest>=8.0", "hypothesis>=6.100", "pypdf>=5.0"]
 
 [project.scripts]
 datagen = "datagen.__main__:main"

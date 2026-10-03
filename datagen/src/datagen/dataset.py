@@ -13,6 +13,7 @@ from jurisdiction_packs.pe.pack import PeruJurisdictionPack
 from datagen.degradation import degrade
 from datagen.ground_truth import build_invoice
 from datagen.master_data import MasterDataWorld, generate_master_data
+from datagen.rendering import render_credit_note_pdf, render_invoice_pdf
 from datagen.scenarios import (
     build_credit_note,
     build_duplicate_pair,
@@ -45,6 +46,7 @@ class DatasetRecord:
     invoice_json_path: str | None
     xml_path: str | None
     credit_note_json_path: str | None
+    pdf_path: str | None
 
 
 def _pack_for(jurisdiction: str):
@@ -54,7 +56,9 @@ def _pack_for(jurisdiction: str):
 def _generate_record(
     world: MasterDataWorld, jurisdiction: str, scenario: str, index: int, rng: random.Random,
     known_happy: list[CanonicalInvoice],
-) -> tuple[CanonicalInvoice | None, CanonicalCreditNote | None, bytes | None]:
+) -> tuple[
+    CanonicalInvoice | None, CanonicalCreditNote | None, bytes | None, str, str, str,
+]:
     pack = _pack_for(jurisdiction)
     company = next(c for c in world.companies if c.jurisdiction == jurisdiction)
     currency = "PEN" if jurisdiction == "PE" else "EUR"
@@ -86,22 +90,32 @@ def _generate_record(
         rate = Decimal("3.75") if jurisdiction == "PE" else Decimal("0.85")
         invoice = inject_multi_currency(invoice, rate=rate, foreign_currency=foreign)
     elif scenario == "credit_note_full":
-        return None, build_credit_note(invoice, scope="full"), None
+        return (
+            None, build_credit_note(invoice, scope="full"), None,
+            supplier.name, company.name, company.tax_id,
+        )
     elif scenario == "credit_note_partial":
-        return None, build_credit_note(invoice, scope="partial"), None
+        return (
+            None, build_credit_note(invoice, scope="partial"), None,
+            supplier.name, company.name, company.tax_id,
+        )
     elif scenario == "duplicate_pair":
         source = rng.choice(known_happy) if known_happy else invoice
         _, invoice = build_duplicate_pair(source)
 
     xml = degrade(pack.generate_xml(invoice), rng)
-    return invoice, None, xml
+    return invoice, None, xml, supplier.name, company.name, company.tax_id
 
 
 def _dataset_checksum(out_dir: Path, manifest: list[DatasetRecord]) -> str:
     hasher = hashlib.sha256()
     hasher.update((out_dir / "manifest.json").read_bytes())
     for record in sorted(manifest, key=lambda r: r.record_id):
-        for path in (record.invoice_json_path, record.xml_path, record.credit_note_json_path):
+        paths = (
+            record.invoice_json_path, record.xml_path,
+            record.credit_note_json_path, record.pdf_path,
+        )
+        for path in paths:
             if path is not None:
                 hasher.update((out_dir / path).read_bytes())
     return hasher.hexdigest()
@@ -123,8 +137,10 @@ def generate_dataset(seed: int, out_dir: Path) -> dict:
             for _ in range(count):
                 index += 1
                 jurisdiction = "PE" if index % 2 == 0 else "ES"
-                invoice, credit_note, xml = _generate_record(
-                    world, jurisdiction, scenario, index, rng, known_happy[jurisdiction]
+                invoice, credit_note, xml, supplier_name, company_name, company_tax_id = (
+                    _generate_record(
+                        world, jurisdiction, scenario, index, rng, known_happy[jurisdiction]
+                    )
                 )
                 record_id = f"{split}-{scenario}-{index:05d}"
 
@@ -143,10 +159,23 @@ def generate_dataset(seed: int, out_dir: Path) -> dict:
                         credit_note.model_dump_json(indent=2)
                     )
 
+                if invoice is not None:
+                    pdf_bytes = render_invoice_pdf(
+                        invoice, supplier_name=supplier_name, company_name=company_name,
+                        company_tax_id=company_tax_id,
+                    )
+                else:
+                    pdf_bytes = render_credit_note_pdf(
+                        credit_note, supplier_name=supplier_name, company_name=company_name,
+                        jurisdiction=jurisdiction,
+                    )
+                pdf_path = f"{split}/{record_id}.pdf"
+                (out_dir / pdf_path).write_bytes(pdf_bytes)
+
                 manifest.append(DatasetRecord(
                     record_id=record_id, split=split, jurisdiction=jurisdiction, scenario=scenario,
                     invoice_json_path=invoice_json_path, xml_path=xml_path,
-                    credit_note_json_path=credit_note_json_path,
+                    credit_note_json_path=credit_note_json_path, pdf_path=pdf_path,
                 ))
 
     manifest_path = out_dir / "manifest.json"

@@ -1,0 +1,128 @@
+{
+  "invoice_key": "c2421929-3104-5b33-b335-93c820934a27:B38849691:FES-multi_line-0237",
+  "company_id": "c2421929-3104-5b33-b335-93c820934a27",
+  "jurisdiction": "ES",
+  "supplier_tax_id": "B38849691",
+  "series_number": "FES-multi_line-0237",
+  "issue_date": "2026-08-26",
+  "due_date": "2026-09-25",
+  "po_reference": null,
+  "lines": [
+    {
+      "line_number": 1,
+      "description": "Consultoria informatica",
+      "quantity": "1",
+      "unit_price": {
+        "amount": "180.00",
+        "currency": "EUR"
+      },
+      "line_total": {
+        "amount": "180.00",
+        "currency": "EUR"
+      }
+    },
+    {
+      "line_number": 2,
+      "description": "Servicio de soporte",
+      "quantity": "1",
+      "unit_price": {
+        "amount": "90.00",
+        "currency": "EUR"
+      },
+      "line_total": {
+        "amount": "90.00",
+        "currency": "EUR"
+      }
+    },
+    {
+      "line_number": 3,
+      "description": "Licencia anual",
+      "quantity": "1",
+      "unit_price": {
+        "amount": "550.00",
+        "currency": "EUR"
+      },
+      "line_total": {
+        "amount": "550.00",
+        "currency": "EUR"
+      }
+    },
+    {
+      "line_number": 4,
+      "description": "Consultoria informatica",
+      "quantity": "1",
+      "unit_price": {
+        "amount": "180.00",
+        "currency": "EUR"
+      },
+      "line_total": {
+        "amount": "180.00",
+        "currency": "EUR"
+      }
+    },
+    {
+      "line_number": 5,
+      "description": "Servicio de soporte",
+      "quantity": "1",
+      "unit_price": {
+        "amount": "90.00",
+        "currency": "EUR"
+      },
+      "line_total": {
+        "amount": "90.00",
+        "currency": "EUR"
+      }
+    }
+  ],
+  "subtotal": {
+    "original": {
+      "amount": "1090.00",
+      "currency": "EUR"
+    },
+    "base": {
+      "amount": "1090.00",
+      "currency": "EUR"
+    },
+    "rate": "1",
+    "rate_date": "2026-08-26",
+    "rate_source": "datagen-simulated"
+  },
+  "taxes": [
+    {
+      "tax_type": "IVA",
+      "rate": "21.00",
+      "base": {
+        "amount": "1090.00",
+        "currency": "EUR"
+      },
+      "amount": {
+        "amount": "228.90",
+        "currency": "EUR"
+      }
+    }
+  ],
+  "withholdings": [],
+  "total": {
+    "original": {
+      "amount": "1318.90",
+      "currency": "EUR"
+    },
+    "base": {
+      "amount": "1318.90",
+      "currency": "EUR"
+    },
+    "rate": "1",
+    "rate_date": "2026-08-26",
+    "rate_source": "datagen-simulated"
+  },
+  "payable": {
+    "amount": "1318.90",
+    "currency": "EUR"
+  },
+  "bank_account": {
+    "last4": "9784",
+    "fingerprint": "17f7ddbbc86603a433b3cd60d85ae845805ed15e5e05b0207f20160c1dad197f",
+    "account_number": "ES1865328710122691669784"
+  },
+  "source_extraction_id": "895d95ea-4a91-5270-9be2-e2890aa264fa"
+}

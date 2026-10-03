@@ -63,3 +63,16 @@ def test_duplicate_pair_never_references_a_different_split():
                 continue
             invoice = json.loads((out_dir / record["invoice_json_path"]).read_text())
             assert invoice["invoice_key"].endswith("-DUP")
+
+
+def test_every_record_has_a_non_empty_pdf():
+    with tempfile.TemporaryDirectory() as tmp:
+        out_dir = Path(tmp)
+        generate_dataset(seed=42, out_dir=out_dir)
+        manifest = json.loads((out_dir / "manifest.json").read_text())
+        assert len(manifest) == 300
+        for record in manifest:
+            assert record["pdf_path"] is not None
+            pdf_file = out_dir / record["pdf_path"]
+            assert pdf_file.exists()
+            assert pdf_file.stat().st_size > 0
