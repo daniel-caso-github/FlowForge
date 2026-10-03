@@ -14,7 +14,7 @@ Temporal-saga-based accounts-payable invoice processing platform, covering the P
 uv sync --all-extras --all-packages
 ```
 
-This creates a `.venv/` at the repo root (uv-managed, Python 3.12+) with every workspace member's dependencies installed (`libs/contracts`, `libs/jurisdiction-packs`, `datagen`, `worker`, `services/budget`, `services/external-sim`). `--all-packages` is required — without it, `uv sync` only installs the root project's dependencies, not the workspace members'. `uv run` invokes commands against the venv automatically, so activating it manually is optional:
+This creates a `.venv/` at the repo root (uv-managed, Python 3.12+) with every workspace member's dependencies installed (`libs/contracts`, `libs/jurisdiction-packs`, `datagen`, `worker`, `services/budget`, `services/external-sim`, `services/invoice`). `--all-packages` is required — without it, `uv sync` only installs the root project's dependencies, not the workspace members'. `uv run` invokes commands against the venv automatically, so activating it manually is optional:
 
 ```bash
 source .venv/bin/activate   # optional — uv run does this implicitly
@@ -57,6 +57,7 @@ Environment variables (all optional, only relevant when running services outside
 | Variable | Default | Used by |
 |---|---|---|
 | `BUDGET_DATABASE_URL` | `sqlite:///./budget.db` | `budget-service` |
+| `INVOICE_DATABASE_URL` | `sqlite:///./invoice.db` | `invoice-service` |
 | `BUDGET_SERVICE_URL` | `http://localhost:8001` | `worker` |
 | `EXTERNAL_SIM_URL` | `http://localhost:8002` | `worker` |
 | `TEMPORAL_ADDRESS` | `localhost:7233` | `worker` |
@@ -76,5 +77,5 @@ task down  # stop
 - `libs/jurisdiction-packs` — PE/ES tax-ID validation, bank-account validation, and UBL/Facturae XML parsing
 - `datagen` — synthetic dataset generator (ground-truth invoices, degradation, scenario injection)
 - `worker` — Temporal workflows and activities (saga orchestration)
-- `services/budget`, `services/external-sim` — FastAPI services
+- `services/budget`, `services/external-sim`, `services/invoice` — FastAPI services
 - `data/v0.1`, `data/v0.2` — generated synthetic datasets (v0.2 adds a rendered PDF per record)
