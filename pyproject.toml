@@ -9,6 +9,7 @@ members = [
     "libs/jurisdiction-packs",
     "services/budget",
     "services/external-sim",
+    "services/invoice",
     "worker",
     "datagen",
 ]
